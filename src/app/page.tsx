@@ -123,7 +123,7 @@ export default function Page() {
                       </span>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
-                      {work.start} - {work.end}
+                      {work.start} {work.timeline} {work.end}
                     </div>
                   </div>
 
@@ -149,11 +149,32 @@ export default function Page() {
                       {education.school}
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
-                      {education.start} - {education.end}
+                      {education.start} {education.timeline} {education.end}
                     </div>
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2">{education.degree}</CardContent>
+                <CardContent className="mt-2 text-xs">{education.thesis}</CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Certifications</h2>
+          {RESUME_DATA.certifications.map((certifications) => {
+            return (
+              <Card key={certifications.school}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-semibold leading-none">
+                      {certifications.school}
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {certifications.date}
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2">{certifications.degree}</CardContent>
               </Card>
             );
           })}
@@ -166,8 +187,8 @@ export default function Page() {
             })}
           </div>
         </Section>
-
-        <Section className="print-force-new-page scroll-mb-16">
+             {/*
+       <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
@@ -183,7 +204,9 @@ export default function Page() {
             })}
           </div>
         </Section>
+                  */}
       </section>
+
 
       <CommandMenu
         links={[
