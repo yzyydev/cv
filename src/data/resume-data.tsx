@@ -63,13 +63,13 @@ export const RESUME_DATA = {
   ],
   certifications: [
     {
-      school: "Google Career Certificates",
-      degree: "Google Project Management: Specialization",
+      school: "Google Project Management: Specialization",
+      degree: "Google Career Certificates",
       date: "2024",
     },
     {
-      school: "Google Career Certificates",
-      degree: "Basics of digital marketing",
+      school: "Basics of digital marketing",
+      degree: "Google Career Certificates",
       date: "2017",
     },
   ],
