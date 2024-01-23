@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Aachen, Germany, CET",
   locationLink: "https://www.google.com/maps/place/Aachen",
   about:
-    "Computer Science Engineer focused on building products with high scaling potential",
+    "Computer Science Engineer possessing a strong entrepreneurial mindset and a flair for business innovation.",
   summary:
     "As a self-motivated individual, my focus extends beyond simply completing tasks. I am committed to scaling efforts and saving your time and resources. I have successfully taken multiple projects from 0 to 1.",
   avatarUrl: "https://avatars.githubusercontent.com/u/137713642?s=400&u=6f7543e755ee22612dcf544d6f31d12f153c502e&v=4",
@@ -113,7 +113,7 @@ export const RESUME_DATA = {
     {
       company: "talpasolutions GmbH",
       link: "https://talpasolutions.com/",
-      badges: ["Internship"],
+      badges: [],
       title: "Voluntary internship",
       logo: JojoMobileLogo,
       start: "05.2020",
@@ -125,7 +125,7 @@ export const RESUME_DATA = {
     {
       company: "Kosch Klink Performance GmbH",
       link: "https://koschklinkperformance.de/",
-      badges: ["Internship"],
+      badges: [],
       title: "Voluntary internship",
       logo: JojoMobileLogo,
       start: "07.2016",
@@ -137,7 +137,7 @@ export const RESUME_DATA = {
     {
       company: "HYDAC Fluidtechnik GmbH",
       link: "https://www.hydac.com/en/",
-      badges: ["Internship"],
+      badges: [],
       title: "Orientation internship",
       logo: NSNLogo,
       start: "08.2013",
